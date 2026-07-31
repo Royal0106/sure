@@ -47,9 +47,6 @@
 .idea
 
 # Ignore VS Code
-.vscode/*
-!.vscode/extensions.json
-!.vscode/*.code-snippets
 
 # Ignore macOS specific files
 */.DS_Store
@@ -96,7 +93,6 @@ node_modules/
 # Environment variables
 .env
 # Editor directories and files
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
@@ -134,3 +130,6 @@ logs/security/
 # Ignore Playwright artifacts
 playwright-report/
 .playwright-mcp
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
